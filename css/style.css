@@ -901,6 +901,8 @@ nav {
         display: block;
         background-color: #fff;
         margin-bottom: 5px;
+        width: 20px;
+        height: 3px;
     }   
 }
 
