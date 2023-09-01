@@ -238,7 +238,7 @@ nav {
 }
 
 .post_subheader:hover {
-    text-shadow: -0.1px -0.1px #b59f5b;
+    text-shadow: -0.3px -0.3px #b59f5b;
 }
 
 
@@ -349,7 +349,7 @@ nav {
 }
 
 .new_subheader:hover {
-    text-shadow: -0.1px -0.1px #b59f5b;
+    text-shadow: -0.3px -0.3px #b59f5b;
 }
 /* поле поиска */
 
@@ -385,7 +385,14 @@ nav {
 
 .search_btn:focus {
     outline: 1px solid #ebe7d7;
+   
 }
+.search-button:hover {
+    background-color: #000;
+}
+
+
+
 
 /* рассылка */
 
@@ -437,6 +444,10 @@ nav {
 
 .delivery_btn:focus {
     outline: 1px solid #a7914b;
+}
+
+.delivery_btn:hover {
+    background-color: #000;
 }
 
 /* теги */
