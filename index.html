@@ -490,11 +490,17 @@
         <form class="popup_section">
             <label class="popup_item">
               Как часто вы заходите на сайт?
-              <input  type="text" name="search" class="search_btn" required placeholder="Почти каждый день">
+              <input list="popup_list" type="text" name="search" class="search_btn" required placeholder="Почти каждый день">
+              <datalist id="popup_list">
+                <option value="Почти каждый день"></option>
+                <option value="Раз в несколько дней"></option>
+                <option value="Раз в несколько недель"></option>
+                <option value="Несколько раз в год"></option>
+              </datalist>
             </label>
             <button class="popup-button"></button>
-       
-
+            
+            
             <div class="mail">
                 <div class="popup_item">Вы подписаны на e-mail рассылку?</div>
                 <div class="radio_group">
